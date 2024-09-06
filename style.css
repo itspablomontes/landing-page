@@ -130,3 +130,29 @@ a{
     font-size: 18px;
     color: #1f2937;
 }
+
+.third-section{
+    display: flex;
+    background-color: #e5e7eb;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.inner-third-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+.author{
+    font-size: 25px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: end;
+}
